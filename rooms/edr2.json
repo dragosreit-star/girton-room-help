@@ -1,0 +1,298 @@
+{
+  "id": "edr2",
+  "name": "Emily Davies Room 2",
+  "short": "EDR 2",
+  "building": "First floor, overlooking Emily Davies Court",
+  "capacity": {
+    "range": "8–14",
+    "layouts": {
+      "boardroom": 8,
+      "u_shape": 10,
+      "hollow_square": 12,
+      "classroom": "12 desks + invigilator",
+      "theatre": 14
+    },
+    "area_m2": 22.5,
+    "note": "Standard set-up U12 unless the booking says otherwise"
+  },
+  "quick_connect": [
+    {
+      "title": "Wireless from a Windows laptop",
+      "steps": [
+        "Switch the screen on with the black Sharp remote (blue POWER ON button), or wait – it wakes when it sees you.",
+        "On your laptop press Win + K to open the Cast panel (Wi-Fi needs to be switched on, but you do not need to be joined to any network).",
+        "Choose \"EDR2-AirMedia\" from the list, then type the 4-digit code shown on the screen when asked for the PIN, and press Connect."
+      ],
+      "works_for": [
+        "Windows 10 / 11"
+      ],
+      "icon": "wifi",
+      "note_confirmed": "Confirmed from photos, 06 Nov 2026",
+      "step_photos": {
+        "1": [
+          "cast_list"
+        ],
+        "2": [
+          "screen_code",
+          "cast_pin"
+        ]
+      }
+    },
+    {
+      "title": "Wired with the USB-C cable on the table",
+      "steps": [
+        "Plug the USB-C cable from the black table box into your laptop's USB-C port.",
+        "Your screen appears automatically.",
+        "In Teams or Zoom, the camera, microphone and speakers switch to \"Yealink\" by themselves – use this route for any online call."
+      ],
+      "works_for": [
+        "Windows",
+        "Mac",
+        "iPad with USB-C"
+      ],
+      "icon": "usb",
+      "recommended_for": "Macs, iPads, and any Teams / Zoom / hybrid meeting",
+      "photos": [
+        "table_box",
+        "usbc_plug"
+      ]
+    },
+    {
+      "title": "Mac or iPad",
+      "steps": [
+        "Use the USB-C cable on the table – Apple Screen Mirroring does not reach this screen.",
+        "Your display appears automatically; no code needed."
+      ],
+      "works_for": [
+        "macOS",
+        "iPadOS"
+      ],
+      "icon": "apple"
+    }
+  ],
+  "av": [
+    {
+      "item": "Display",
+      "detail": "75\" Sharp commercial display on the wall, showing the room name when idle",
+      "note": "Switch on with the black Sharp remote (blue POWER ON button); inputs HDMI 1–3, DisplayPort and USB-C. No projector in this room",
+      "icon": "display",
+      "short_detail": "75\" Sharp commercial screen",
+      "short_note": "Shows the room name when idle; no projector in this room"
+    },
+    {
+      "item": "Camera, mics and speakers",
+      "detail": "Yealink MeetingBar under the screen",
+      "note": "Auto-tracks whoever is speaking; mic range about 10 m – no extra mics needed. Silver Yealink remote: volume, camera, mute, call",
+      "icon": "camera",
+      "short_detail": "Yealink MeetingBar",
+      "short_note": "Follows whoever is speaking; no extra mics needed"
+    },
+    {
+      "item": "Wireless presentation",
+      "detail": "Crestron AirMedia (receiver on the window ledge)",
+      "note": "Windows only (Win + K, then EDR2-AirMedia). Macs and iPads use the cable.",
+      "model": "Crestron AirMedia Series 3 receiver, probably AM-3200",
+      "icon": "wifi",
+      "short_detail": "Crestron AirMedia",
+      "short_note": "Windows only (Win + K). Macs and iPads use the cable."
+    },
+    {
+      "item": "Wired presentation",
+      "detail": "Black Crestron table box with a USB-C cable",
+      "note": "Plug the cable into your laptop's USB-C port. Also carries camera and audio to your laptop",
+      "icon": "usb",
+      "short_detail": "USB-C cable",
+      "short_note": "In the black table box; also carries camera and audio"
+    },
+    {
+      "item": "Hearing loop",
+      "detail": "Induction loop, always on",
+      "note": "Switch your hearing aid to the T setting. Nothing to turn on; if it is not working, use the Help button. (Loop confirmed on the College room sheet.)",
+      "icon": "loop",
+      "short_detail": "Always on",
+      "short_note": "Switch your hearing aid to T. If it is not working, please use Help."
+    },
+    {
+      "item": "Remotes",
+      "detail": "Two remotes on the table",
+      "note": "Silver Yealink: volume, camera, mute, call (the bar). Black Sharp: screen power and inputs.",
+      "icon": "remote",
+      "short_detail": "Silver Yealink and black Sharp",
+      "short_note": "Yealink: camera and volume. Sharp: the screen."
+    },
+    {
+      "item": "Adapters",
+      "detail": "USB-A to USB-C and HDMI adapters",
+      "note": "Ask House Services or the Porters' Lodge",
+      "icon": "adapter",
+      "short_detail": "USB-A to USB-C and HDMI",
+      "short_note": "Please ask House Services or the Porters' Lodge"
+    },
+    {
+      "item": "Layout",
+      "detail": "Usually set as a U-shape",
+      "note": "8–14 people, depending on the layout",
+      "icon": "layout",
+      "short_detail": "Usually a U-shape",
+      "short_note": "8–14 people, depending on the layout"
+    }
+  ],
+  "howto": [
+    {
+      "title": "Running a Teams or Zoom meeting",
+      "steps": [
+        "Connect by the USB-C cable (not wireless) so the room camera and mics are used.",
+        "Start your meeting on your laptop as normal.",
+        "Check the device settings in the call: camera, microphone and speaker should all say Yealink.",
+        "Point the silver Yealink remote at the bar to adjust the call volume."
+      ]
+    },
+    {
+      "title": "Nothing on the screen?",
+      "steps": [
+        "Is the screen on? Press the blue POWER ON button on the black Sharp remote.",
+        "Wireless: press Win + K again and reconnect. Wi-Fi on your laptop must be on; a phone hotspot is fine, it is not the network that matters.",
+        "Wired: unplug the USB-C cable and plug it back in; try the other USB-C port on your laptop.",
+        "Still nothing: use the Help button at the top of this page."
+      ],
+      "open": true,
+      "photos": [
+        "remotes"
+      ],
+      "photo_size": "small"
+    },
+    {
+      "title": "No sound, or sound from the laptop instead of the room",
+      "steps": [
+        "Click the speaker icon on your laptop and choose Yealink as the output.",
+        "For calls, volume is on the silver Yealink remote; for presentation sound it is on the black Sharp remote.",
+        "Wireless connections send audio too, but the wired cable is more reliable for sound."
+      ]
+    },
+    {
+      "title": "Leaving the room",
+      "steps": [
+        "Unplug the USB-C cable and leave it on the table.",
+        "Stop sharing (Win + K → Disconnect) so the next person does not see your desktop.",
+        "The screen switches itself off; no need to power anything down."
+      ]
+    }
+  ],
+  "fire": {
+    "nearest_exit": "Your room has its own door onto the corridor, marked with the green running-man sign. Leave by it and follow the exit signs; the stairs are beside Room 1.",
+    "assembly_point": "Outside the Ash Court car park, or at the main entrance on the main drive – whichever is nearer to you when you get outside.",
+    "map": "assets/edr2/fire-route.png",
+    "map_caption": "Emily Davies Rooms (first floor) and the two assembly points. Pin positions are approximate. Based on the College visitor map 2025.",
+    "note": "Do not use the lifts. Call 999 from a safe place, then tell the Porters' Lodge.",
+    "route": "Quickest way out is towards Ash Court.",
+    "confirmed": "Nick, 06 Nov 2026",
+    "map_alt": "Map of the Emily Davies Rooms on the first floor with the assembly points marked",
+    "assembly_label": "Assembly points:"
+  },
+  "contacts": [
+    {
+      "label": "House Services",
+      "detail": "Weekdays 07:00–16:30, weekends 07:00–10:30",
+      "email": "dr450@cam.ac.uk"
+    },
+    {
+      "label": "Porters' Lodge",
+      "detail": "24 hours",
+      "phone": "01223 338 999"
+    }
+  ],
+  "help": {
+    "urgency": [
+      {
+        "id": "now",
+        "label": "Event is on – I need someone now"
+      },
+      {
+        "id": "later",
+        "label": "Not urgent – can wait"
+      }
+    ],
+    "problems": [
+      "Can't connect my laptop",
+      "No picture on the screen",
+      "No sound",
+      "Microphone or hearing loop",
+      "Camera or online call not working",
+      "Room, furniture or heating",
+      "Something else"
+    ],
+    "comment_placeholder": "What is happening? Room and issue only – no names, please.",
+    "callback": {
+      "ask": true,
+      "label": "Phone number if you would like a call back (optional)"
+    },
+    "confirmation": "Thank you – House Services have been told. If nobody has arrived in 10 minutes, please ring the Porters' Lodge on 01223 338 999.",
+    "routing": "Inside staff hours (config.staff_hours): Teams channel + email. Outside: email only, with a line saying when House Services are next in.",
+    "out_of_hours_text": "House Services are not on duty right now. Your email will be seen from 07:00; for anything urgent please ring the Porters' Lodge on 01223 338 999."
+  },
+  "access": {
+    "note": "This room is on the first floor and there is no lift. If step-free access matters for your meeting, House Services or the Conference Office (01223 338 975) will be happy to help you plan ahead."
+  },
+  "welcome": {
+    "headline": "Welcome to EDR 2",
+    "sub": "Let's get you connected.",
+    "connect_hint": "Win + K · or the USB-C cable"
+  },
+  "toilets": "The nearest toilets are at the Porters' Lodge and the Social Hub.",
+  "wifi": {
+    "members": "University members: please use eduroam with your CRSid.",
+    "visitors": "Visitors: please join the UniOfCam-Guest network and register with your email address or a social login."
+  },
+  "photos": {
+    "hero": "room-hero.jpg",
+    "screen_idle": "screen-hero.jpg",
+    "screen_code": "code-box.jpg",
+    "cast_list": "cast-list.jpg",
+    "cast_pin": "cast-pin.jpg",
+    "table_box": "table-box.jpg",
+    "usbc_plug": "usbc-plug.jpg",
+    "remotes": "remotes.jpg",
+    "airmedia": "airmedia.jpg"
+  },
+  "room_description": "U-shape of light oak tables with blue chairs. The screen is on the wall facing the door, with the Yealink bar beneath it and a flip chart to its right. The screen shows \"Emily Davies Room 2\" and the Girton crest when idle.",
+  "quick_connect_footer": "Online call? Please use the cable so the room camera and mics are picked up.",
+  "photos_note": "File names in assets\\<room>\\crops\\ (copied flat to site\\assets\\<room>\\ by scripts\\build-site.py). A missing file just hides its figure.",
+  "photos_captions": {
+    "hero": {
+      "caption": "",
+      "alt": ""
+    },
+    "screen_idle": {
+      "caption": "The screen shows the room name when it is idle.",
+      "alt": "The room screen showing Emily Davies Room 2 and the Girton crest"
+    },
+    "screen_code": {
+      "caption": "The code is on the screen.",
+      "alt": "The room screen showing a 4-digit code with two instruction pills beneath"
+    },
+    "cast_list": {
+      "caption": "The Cast panel lists the displays it can see.",
+      "alt": "The Windows Cast panel listing available displays, including EDR2-AirMedia"
+    },
+    "cast_pin": {
+      "caption": "Type it in, then Connect.",
+      "alt": "The Windows prompt Enter the PIN for your device, with a Connect button"
+    },
+    "table_box": {
+      "caption": "The black box on the table.",
+      "alt": "The black Crestron box on the table with its USB-C cable"
+    },
+    "usbc_plug": {
+      "caption": "Into your USB-C port.",
+      "alt": "The USB-C plug going into the side of a laptop"
+    },
+    "remotes": {
+      "caption": "Silver Yealink = camera and volume · Black Sharp = the screen",
+      "alt": "Two remotes: a silver Yealink and a black Sharp"
+    },
+    "airmedia": {
+      "caption": "The AirMedia receiver on the window ledge.",
+      "alt": "The Crestron AirMedia receiver"
+    }
+  }
+}

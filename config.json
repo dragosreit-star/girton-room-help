@@ -1,0 +1,109 @@
+{
+  "college": {
+    "name": "Girton College",
+    "green": "#0B5C3B",
+    "red": "#C8102E",
+    "green_dark": "#08432B",
+    "green_tint": "#EEF5F1",
+    "text": "#111111",
+    "muted": "#5A5A5A",
+    "border": "#E3E3E3",
+    "input_border": "#8A8A8A",
+    "panel": "#F4F4F4",
+    "background": "#FFFFFF"
+  },
+  "site_url": "https://dragosreit-star.github.io/girton-room-help/",
+  "staff_hours": {
+    "timezone": "Europe/London",
+    "note": "Teams button shown only inside these hours; outside them the form sends email only",
+    "weekdays": {
+      "from": "07:00",
+      "to": "16:30"
+    },
+    "weekend": {
+      "from": "07:00",
+      "to": "10:30"
+    }
+  },
+  "routes": {
+    "teams_channel": {
+      "enabled": true,
+      "workflow_url": "https://default49a50445bdfa4b79ade3547b4f3986.e9.environment.api.powerplatform.com/powerautomate/automations/direct/cu/30/workflows/83b39bd0bde94129acf0cb44e1f53131/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=Av86GYP6jgRhkeHvn4T9zs37C999a64syOxf2eyTrLc",
+      "members": "Nick, assistant 1, assistant 2, Lewis (every ping, decided 05 Nov 2026)",
+      "created": "06 Nov 2026, Teams template 'Send webhook alerts from anyone to Teams', team Room Help / channel Room Help"
+    },
+    "email": {
+      "enabled": true,
+      "to": "dr450@cam.ac.uk",
+      "cc": [],
+      "note": "demo address; always available"
+    }
+  },
+  "demo_mode": true,
+  "ui": {
+    "_note": "Every word the page shows that is not room-specific. {placeholders} are filled by the page.",
+    "app_name": "Room help",
+    "back": "Back",
+    "help": "Help",
+    "loading": "Loading the room guide…",
+    "home": {
+      "connect_title": "Connect my laptop",
+      "help_title": "I need help now",
+      "help_sub": "Message House Services",
+      "fix": "Fix a problem",
+      "room": "What's in the room",
+      "info": "Contacts, Wi-Fi and fire exit"
+    },
+    "titles": {
+      "connect": "Connect my laptop",
+      "help": "Get help now",
+      "fix": "Fix a problem",
+      "room": "What's in the room",
+      "info": "Contacts, Wi-Fi and fire exit"
+    },
+    "connect": {
+      "works_for": "Works for {list}.",
+      "recommended_for": "Recommended for {text}."
+    },
+    "fix": {
+      "still_stuck": "Still stuck? Get help"
+    },
+    "help_form": {
+      "intro": "You are in {room_name}. House Services will see the room name with your message, so there is no need to add it.",
+      "urgency_legend": "How urgent is it?",
+      "problem_label": "What's wrong?",
+      "comment_label": "Details",
+      "send_teams": "Send on Teams",
+      "send_email": "Send by email",
+      "sending": "Sending…",
+      "teams_hours": "Teams is available weekdays {weekdays} and weekends {weekend}; outside those hours, email only.",
+      "teams_not_set_up": "The Teams route is not set up yet, so please use Send by email for now.",
+      "send_failed": "Sorry, that did not go through. Please try Send by email instead.",
+      "send_another": "Send another message",
+      "honeypot_label": "Leave this field empty",
+      "email_subject": "Room help – {room} – {urgency}",
+      "email_labels": {
+        "room": "Room",
+        "urgency": "Urgency",
+        "problem": "Problem",
+        "comment": "Details",
+        "phone": "Call back on",
+        "sent_at": "Sent at"
+      }
+    },
+    "info": {
+      "contacts": "Contacts",
+      "wifi": "Wi-Fi",
+      "toilets": "Toilets",
+      "access": "Access",
+      "fire": "Fire exit",
+      "nearest_exit": "Nearest exit:",
+      "assembly": "Assembly point:"
+    },
+    "no_room": {
+      "title": "Room help",
+      "text": "We could not tell which room you are in. Please scan the QR code on the notice in the room, and the right guide will open."
+    }
+  },
+  "github_user": "dragosreit-star"
+}
